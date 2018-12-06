@@ -7,17 +7,38 @@
 body{
   margin: 0px;
   text-align: center;
-  font-family: 'Merriweather', serif;
+}
+
+p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  color: #260c1a;
+}
+
+#special{
+  font-family: 'Black And White Picture', sans-serif;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  font-weight: normal;
 }
 
 h1{
   margin-top:0px;
   font-family: 'Sacramento', cursive;
-  font-size: 50px;
+  font-size: 4.375rem;
+  color: #FFFFFF;
+}
+
+h2{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2.5rem;
+  color: #264e70;
 }
 
 #planet{
   margin-bottom: 0px;
+  width:27%;
+  margin-top: 20px;
 }
 
 .top-cloud{
@@ -51,4 +72,34 @@ hr{
   border-color: grey;
   width: 10%;
   border-width: 10px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:70px auto;
+  margin-top:50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.book-img{
+  width: 30%;
+  float:left;
+  margin-right: 30px;
+  position: relative;
+  top:30px;
+}
+
+.code-img{
+  width: 30%;
+  float:right;
+  margin-left: 30px;
+  position: relative;
+  top:30px;
+}
+
+.profile{
+  width:50%;
+  margin:0 auto;
+  line-height: 2;
 }
