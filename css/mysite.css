@@ -1,0 +1,54 @@
+.top-container{
+  background-color: #94d2e6;
+  position: relative;
+  padding-top: 100px;
+}
+
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin-top:0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+
+#planet{
+  margin-bottom: 0px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 350px;
+  top:50px;
+  width: 200px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:380px;
+  top:220px;
+  width:200px;
+}
+
+.middle-container{
+  background-color: #f3f6c8;
+  padding-bottom: 50px;
+}
+
+.bottom-container{
+  background-color: #ea9c1b;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  width: 10%;
+  border-width: 10px;
+}
